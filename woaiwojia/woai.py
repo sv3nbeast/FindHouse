@@ -124,7 +124,7 @@ def start(target_url,state):
     html = ht
 
     patt_name = re.compile(u'.html">(.*?)</a>')
-    patt_price = re.compile(u'<strong>(.*?)</strong>')
+    patt_price = re.compile(u'<p class="redC"><strong>(.*?)</strong>')
     patt_big = re.compile(u'·  (.*?)  平米')
     patt_url = re.compile(u'href="/zufang/(.*?).html" target="_blank">')
 
